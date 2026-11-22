@@ -1,8 +1,6 @@
 <div align="center">
 
-![knight — my ascii artwork](https://raw.githubusercontent.com/Ojasvvv/site/main/assets/knight.webp)
-
-*a kingdom, one dot at a time — ascii artwork by me*
+![knight, my ascii artwork](https://raw.githubusercontent.com/Ojasvvv/site/main/assets/knight.webp)
 
 </div>
 
@@ -10,9 +8,9 @@
 
 B.Tech in Computer Science (AI/ML) at SRM University AP, class of 2029, CGPA 8.6.
 
-I build ML platforms and verification tools — the kind of software where you can
-check the answer instead of hoping. Most of it is Python, C++ or Go on Linux;
-lately it's a lot of LLMs, RAG pipelines, MCP servers and models running locally.
+I work at the intersection of AI, cybersecurity and LLMs: systems that learn,
+and stay auditable. Most of it is Python, C++ or Go on Linux, with RAG
+pipelines, MCP servers and models running locally.
 
 <div align="center">
 
@@ -63,7 +61,7 @@ the only sane stance, so I built the verify part. Second place, FOSS Hackathon.
 **[ZeroVault](https://github.com/Ojasvvv/zeckonoid)** · `typescript web3`
 Exchanges always want you to trust their reserves. Proof-of-reserves dashboard
 with zk-style verification, decentralized storage, blockchain anchoring and live
-market data — solvency you watch instead of solvency you're told. Won the Data
+market data: solvency you watch, not solvency you're told. Won the Data
 Haven track at HackSRM 7.0.
 
 ## receipts
