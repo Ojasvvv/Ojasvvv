@@ -14,7 +14,8 @@ pipelines, MCP servers and models running locally.
 
 <div align="center">
 
-![my stack](https://skillicons.dev/icons?i=python,cpp,c,go,java,fastapi,huggingface,ollama,numpy,pandas,sklearn,git,github,linux,vscode,cursor)
+![stack part 1](https://skillicons.dev/icons?i=python,cpp,c,go,java,fastapi,huggingface,ollama)
+![stack part 2](https://skillicons.dev/icons?i=numpy,pandas,sklearn,git,github,linux,vscode,cursor)
 
 </div>
 
