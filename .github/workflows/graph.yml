@@ -1,0 +1,22 @@
+name: contribution graph
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: AaronYim12/GitHub-Profile-3D-Contrib-Graph@v1
+        with:
+          image-file: contrib.svg
+          image-width: "800"
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: contrib.svg
+          message: "update contribution graph"
