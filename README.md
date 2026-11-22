@@ -70,7 +70,7 @@ Also: philosophy, ethics debates, cricket (CSK), long walks, twenty one pilots.
 
 ![contribution snake](https://raw.githubusercontent.com/Ojasvvv/Ojasvvv/output/github-contribution-grid-snake-dark.svg)
 
-![3d contribution graph](./contrib.svg)
+![3d contribution graph](./profile-3d-contrib/profile-gitblock.svg)
 
 ---
 

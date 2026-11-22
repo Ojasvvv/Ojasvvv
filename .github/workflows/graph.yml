@@ -1,22 +1,26 @@
-name: contribution graph
+name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  graph:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: AaronYim12/GitHub-Profile-3D-Contrib-Graph@v1
-        with:
-          image-file: contrib.svg
-          image-width: "800"
-      - uses: EndBug/add-and-commit@v9
-        with:
-          add: contrib.svg
-          message: "update contribution graph"
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A .
+          if git commit -m "generated 3d contrib"; then git push; fi
